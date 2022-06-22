@@ -7,11 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App1.Android", "App1\App1.A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App1.iOS", "App1\App1.iOS\App1.iOS.csproj", "{7272E249-1A50-438B-B494-377C5305F7C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App1", "App1\App1\App1.csproj", "{157CA457-FC2F-4DF7-8AC0-1AF59AE7BD0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App1", "App1\App1\App1.csproj", "{157CA457-FC2F-4DF7-8AC0-1AF59AE7BD0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{64526D58-B90D-4640-B4C5-74406C19347F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{64526D58-B90D-4640-B4C5-74406C19347F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQlClient", "GraphQlClient\GraphQlClient.csproj", "{AE8936F8-EC85-4291-A2A1-E366A8673BE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphQlClient", "GraphQlClient\GraphQlClient.csproj", "{AE8936F8-EC85-4291-A2A1-E366A8673BE7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

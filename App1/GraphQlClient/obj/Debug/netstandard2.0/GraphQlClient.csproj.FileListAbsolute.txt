@@ -3,3 +3,8 @@ C:\Users\danik\Documents\GitHub\Xamarin.Gardy\App1\GraphQlClient\obj\Debug\netst
 C:\Users\danik\Documents\GitHub\Xamarin.Gardy\App1\GraphQlClient\obj\Debug\netstandard2.0\GraphQlClient.AssemblyInfoInputs.cache
 C:\Users\danik\Documents\GitHub\Xamarin.Gardy\App1\GraphQlClient\obj\Debug\netstandard2.0\GraphQlClient.AssemblyInfo.cs
 C:\Users\danik\Documents\GitHub\Xamarin.Gardy\App1\GraphQlClient\obj\Debug\netstandard2.0\GraphQlClient.csproj.CoreCompileInputs.cache
+C:\Users\danik\Documents\GitHub\Xamarin.Gardy\App1\GraphQlClient\bin\Debug\netstandard2.0\GraphQlClient.deps.json
+C:\Users\danik\Documents\GitHub\Xamarin.Gardy\App1\GraphQlClient\bin\Debug\netstandard2.0\GraphQlClient.dll
+C:\Users\danik\Documents\GitHub\Xamarin.Gardy\App1\GraphQlClient\bin\Debug\netstandard2.0\GraphQlClient.pdb
+C:\Users\danik\Documents\GitHub\Xamarin.Gardy\App1\GraphQlClient\obj\Debug\netstandard2.0\GraphQlClient.dll
+C:\Users\danik\Documents\GitHub\Xamarin.Gardy\App1\GraphQlClient\obj\Debug\netstandard2.0\GraphQlClient.pdb

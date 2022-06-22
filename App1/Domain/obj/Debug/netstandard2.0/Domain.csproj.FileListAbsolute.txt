@@ -3,3 +3,8 @@ C:\Users\danik\Documents\GitHub\Xamarin.Gardy\App1\Domain\obj\Debug\netstandard2
 C:\Users\danik\Documents\GitHub\Xamarin.Gardy\App1\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfoInputs.cache
 C:\Users\danik\Documents\GitHub\Xamarin.Gardy\App1\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfo.cs
 C:\Users\danik\Documents\GitHub\Xamarin.Gardy\App1\Domain\obj\Debug\netstandard2.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\danik\Documents\GitHub\Xamarin.Gardy\App1\Domain\bin\Debug\netstandard2.0\Domain.deps.json
+C:\Users\danik\Documents\GitHub\Xamarin.Gardy\App1\Domain\bin\Debug\netstandard2.0\Domain.dll
+C:\Users\danik\Documents\GitHub\Xamarin.Gardy\App1\Domain\bin\Debug\netstandard2.0\Domain.pdb
+C:\Users\danik\Documents\GitHub\Xamarin.Gardy\App1\Domain\obj\Debug\netstandard2.0\Domain.dll
+C:\Users\danik\Documents\GitHub\Xamarin.Gardy\App1\Domain\obj\Debug\netstandard2.0\Domain.pdb

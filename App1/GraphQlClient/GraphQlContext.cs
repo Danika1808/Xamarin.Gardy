@@ -10,7 +10,7 @@ namespace GraphQLClient
 {
     public class GraphQlContext
     {
-        static readonly Lazy<GraphQLHttpClient> _clientHolder = new Lazy<GraphQLHttpClient>(CreateGraphQLClient());
+        static readonly Lazy<GraphQLHttpClient> _clientHolder = new Lazy<GraphQLHttpClient>(() => CreateGraphQLClient());
         public static GraphQLHttpClient Client => _clientHolder.Value;
         static GraphQLHttpClient CreateGraphQLClient()
         {

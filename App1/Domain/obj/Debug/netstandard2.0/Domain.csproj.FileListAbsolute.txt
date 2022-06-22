@@ -1,0 +1,5 @@
+C:\Users\danik\Documents\GitHub\Xamarin.Gardy\App1\Domain\obj\Debug\netstandard2.0\Domain.csproj.AssemblyReference.cache
+C:\Users\danik\Documents\GitHub\Xamarin.Gardy\App1\Domain\obj\Debug\netstandard2.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danik\Documents\GitHub\Xamarin.Gardy\App1\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfoInputs.cache
+C:\Users\danik\Documents\GitHub\Xamarin.Gardy\App1\Domain\obj\Debug\netstandard2.0\Domain.AssemblyInfo.cs
+C:\Users\danik\Documents\GitHub\Xamarin.Gardy\App1\Domain\obj\Debug\netstandard2.0\Domain.csproj.CoreCompileInputs.cache

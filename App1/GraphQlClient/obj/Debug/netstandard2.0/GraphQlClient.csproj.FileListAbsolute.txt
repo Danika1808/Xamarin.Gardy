@@ -1,0 +1,5 @@
+C:\Users\danik\Documents\GitHub\Xamarin.Gardy\App1\GraphQlClient\obj\Debug\netstandard2.0\GraphQlClient.csproj.AssemblyReference.cache
+C:\Users\danik\Documents\GitHub\Xamarin.Gardy\App1\GraphQlClient\obj\Debug\netstandard2.0\GraphQlClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\danik\Documents\GitHub\Xamarin.Gardy\App1\GraphQlClient\obj\Debug\netstandard2.0\GraphQlClient.AssemblyInfoInputs.cache
+C:\Users\danik\Documents\GitHub\Xamarin.Gardy\App1\GraphQlClient\obj\Debug\netstandard2.0\GraphQlClient.AssemblyInfo.cs
+C:\Users\danik\Documents\GitHub\Xamarin.Gardy\App1\GraphQlClient\obj\Debug\netstandard2.0\GraphQlClient.csproj.CoreCompileInputs.cache

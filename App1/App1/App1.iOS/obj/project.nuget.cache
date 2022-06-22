@@ -1,12 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "1PPy27fwuz7HCGK9Ju/kl6jaJwfSqMYeVwLMlFDOwoMgBCNXqKLtA2xMuYfHz/+amEMlfCxudrEasNPIrTl84A==",
+  "dgSpecHash": "qC4W2mEgXXe1ZJdR/1/AzMPj8Cbp54qBjlAlTiD598d43hjVhK+YPu7SS435hGKwe0S6WYIkpfVZzxSYkH7zVg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\danik\\Documents\\GitHub\\Xamarin.Gardy\\App1\\App1\\App1.iOS\\App1.iOS.csproj",
+  "projectFilePath": "C:\\Users\\timur\\Source\\Repos\\Xamarin.Gardy\\App1\\App1\\App1.iOS\\App1.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\danik\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\danik\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\danik\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+    "C:\\Users\\timur\\.nuget\\packages\\graphql.client\\4.0.2\\graphql.client.4.0.2.nupkg.sha512",
+    "C:\\Users\\timur\\.nuget\\packages\\graphql.client.abstractions\\4.0.2\\graphql.client.abstractions.4.0.2.nupkg.sha512",
+    "C:\\Users\\timur\\.nuget\\packages\\graphql.client.abstractions.websocket\\4.0.2\\graphql.client.abstractions.websocket.4.0.2.nupkg.sha512",
+    "C:\\Users\\timur\\.nuget\\packages\\graphql.client.serializer.newtonsoft\\4.0.2\\graphql.client.serializer.newtonsoft.4.0.2.nupkg.sha512",
+    "C:\\Users\\timur\\.nuget\\packages\\graphql.primitives\\4.0.2\\graphql.primitives.4.0.2.nupkg.sha512",
+    "C:\\Users\\timur\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\timur\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\timur\\.nuget\\packages\\system.reactive\\4.3.2\\system.reactive.4.3.2.nupkg.sha512",
+    "C:\\Users\\timur\\.nuget\\packages\\system.runtime.interopservices.windowsruntime\\4.3.0\\system.runtime.interopservices.windowsruntime.4.3.0.nupkg.sha512",
+    "C:\\Users\\timur\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.3\\system.threading.tasks.extensions.4.5.3.nupkg.sha512",
+    "C:\\Users\\timur\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\timur\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],
   "logs": []
 }

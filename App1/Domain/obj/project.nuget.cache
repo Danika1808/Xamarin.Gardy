@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "c7mKg6mXugafJ5hiZUL1Jyzgstdqs1C0jQwunu/HCkXCNn2opr6IaFiNuqu//0zfTW//8iH3FCD26detsg8wGw==",
+  "dgSpecHash": "KxC5UbYbZoETJ8JwYN9MhLG+b4npmCkZJ4RJlqUxAM2EnKPd3hGI7G7dqySaR9VPhu5voUoER+iY6m0JcqlRfw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\danik\\Documents\\GitHub\\Xamarin.Gardy\\App1\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\timur\\Source\\Repos\\Xamarin.Gardy\\App1\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\danik\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\danik\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\timur\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\timur\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

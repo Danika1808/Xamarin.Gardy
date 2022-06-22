@@ -6,9 +6,13 @@
 
     <StackLayout Spacing="20" Padding="15">
         <Label Text="Text:" FontSize="Medium" />
-        <Label Text="{Binding Text}" FontSize="Small"/>
+        <Label Text="{Binding Name}" FontSize="Small"/>
         <Label Text="Description:" FontSize="Medium" />
         <Label Text="{Binding Description}" FontSize="Small"/>
+        <Label Text="Price:" FontSize="Medium" />
+        <Label Text="{Binding Price}" FontSize="Small"/>
+        <Label Text="Category:" FontSize="Medium" />
+        <Label Text="{Binding Category}" FontSize="Small"/>
     </StackLayout>
     
 </ContentPage>

@@ -9,7 +9,7 @@ namespace App1.Views
         public ItemDetailPage()
         {
             InitializeComponent();
-            BindingContext = new ItemDetailViewModel();
+            BindingContext = new ProductDetailViewModel();
         }
     }
 }

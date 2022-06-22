@@ -3,8 +3,17 @@ public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
 		/* We need to ensure that "App1.Android.dll" comes first in this list. */
 		"App1.Android.dll",
+		"Domain.dll",
 		"App1.dll",
 		"FormsViewGroup.dll",
+		"GraphQL.Client.Abstractions.dll",
+		"GraphQL.Client.Abstractions.Websocket.dll",
+		"GraphQL.Client.dll",
+		"GraphQL.Client.Serializer.Newtonsoft.dll",
+		"GraphQL.Primitives.dll",
+		"GraphQlClient.dll",
+		"Newtonsoft.Json.dll",
+		"System.Reactive.dll",
 		"Xamarin.AndroidX.Activity.dll",
 		"Xamarin.AndroidX.Annotation.dll",
 		"Xamarin.AndroidX.Annotation.Experimental.dll",

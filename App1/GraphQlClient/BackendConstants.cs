@@ -2,6 +2,6 @@
 {
     public class BackendConstants
     {
-        public const string GraphQLApiUrl = "https://localhost:7007/graphql";
+        public const string GraphQLApiUrl = "https://10.0.2.2:7007/graphql";
     }
 }

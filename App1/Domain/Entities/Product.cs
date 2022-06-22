@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Domain
+namespace Domain.Entities
 {
     public class Product
     {
@@ -12,7 +12,7 @@ namespace Domain
         public Category Category { get; set; }
         public int ImageId { get; set; }
         public ImageMetadata Image { get; set; }
-        public Dictionary<string,string> AttributeValuePairs { get; set; }
+        public ICollection<IdValue> AttributeIdValue { get; set; }
         public ICollection<Review> Reviews { get; set; }
     }
 }

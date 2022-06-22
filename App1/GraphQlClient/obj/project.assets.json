@@ -905,6 +905,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "Domain >= 1.0.0",
       "GraphQL.Client >= 4.0.2",
       "GraphQL.Client.Serializer.Newtonsoft >= 4.0.2",
       "NETStandard.Library >= 2.0.3",
@@ -937,7 +938,11 @@
       "frameworks": {
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\danik\\Documents\\GitHub\\Xamarin.Gardy\\App1\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\danik\\Documents\\GitHub\\Xamarin.Gardy\\App1\\Domain\\Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

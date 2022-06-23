@@ -1,8 +1,11 @@
 ﻿using App1.Services;
 using Domain;
+using Domain.Entities;
+using GraphQlClient;
 using GraphQLClient;
 using System;
 using System.Diagnostics;
+using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
 using Xamarin.Forms;
@@ -14,7 +17,7 @@ namespace App1.ViewModels
     {
         private string _name;
         private string _description;
-        private decimal _price;
+        private string _price;
         private decimal _rating;
         private string _categoryName;
 
@@ -34,32 +37,51 @@ namespace App1.ViewModels
             }
         }
 
-        public string Name { get => _name; set => _name = value; }
-        public string Description { get => _description; set => _description = value; }
-        public decimal Price { get => _price; set => _price = value; }
-        public decimal Rating { get => _rating; set => _rating = value; }
-        public string CategoryName { get => _categoryName; set => _categoryName = value; }
+        public string Name { get => _name; set => SetProperty(ref _name, value); }
+        public string Description { get => _description; set => SetProperty(ref _description, value); }
+        public string Price { get => _price; set => SetProperty(ref _price, value); }
+        public decimal Rating { get => _rating; set => SetProperty(ref _rating, value); }
+        public string CategoryName { get => _categoryName; set => SetProperty(ref _categoryName, value); }
 
         public async void LoadItemId(int itemId)
         {
             try
             {
                 var client = GraphQlContext.Client;
-                var content = await client.SendQueryAsync<Product>(new GraphQL.GraphQLRequest(@"query{
-                                                                                                      products(where: {id: {eq: " + itemId + @"}})
-                                                                                                      {
-                                                                                                      totalCount,
-                                                                                                      items{
-                                                                                                      id, name, price, rating, image { id, imagePath
-                                                                                                      }, attributeValuePairs { key, value }
-                                                                                                      }
-                                                                                                      }
-                                                                                                      }")).ConfigureAwait(false);
-                var item = content.Data;
+                var content = await client.SendQueryAsync<ResponseType>(new GraphQL.GraphQLRequest(@"
+                                                                                                    query {
+                                                                                                    products(where: {id: {eq: " + itemId + @"}}) {
+                                                                                                    totalCount
+                                                                                                    items {
+                                                                                                    id
+                                                                                                    attributeIdValue {
+                                                                                                    id, value
+                                                                                                    }
+                                                                                                    name,
+                                                                                                    category {
+                                                                                                    id, name, properties {
+                                                                                                    id, name
+                                                                                                    }
+                                                                                                    }
+                                                                                                    price
+                                                                                                    rating
+                                                                                                    image {
+                                                                                                    id
+                                                                                                    imagePath
+                                                                                                    }
+                                                                                                    reviews {
+                                                                                                    id, user {
+                                                                                                    id
+                                                                                                    } content, rating, date
+                                                                                                    }, description
+                                                                                                    }
+                                                                                                    }
+                                                                                                    }")).ConfigureAwait(false);
+                var item = content.Data.Products.Items.FirstOrDefault();
                 Id = item.Id;
                 Name = item.Name;
                 Description = item.Description;
-                Price = item.Price;
+                Price = item.Price.ToString();
                 Rating = item.Rating;
                 CategoryName = item.Category.Name;
 

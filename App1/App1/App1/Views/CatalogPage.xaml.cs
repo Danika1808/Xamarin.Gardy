@@ -19,7 +19,6 @@ namespace App1.Views
         public ItemsPage()
         {
             InitializeComponent();
-
             BindingContext = _viewModel = new CatalogViewModel();
         }
 

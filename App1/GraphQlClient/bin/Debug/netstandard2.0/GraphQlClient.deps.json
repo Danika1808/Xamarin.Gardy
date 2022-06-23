@@ -9,6 +9,7 @@
     ".NETStandard,Version=v2.0/": {
       "GraphQlClient/1.0.0": {
         "dependencies": {
+          "Domain": "1.0.0",
           "GraphQL.Client": "4.0.2",
           "GraphQL.Client.Serializer.Newtonsoft": "4.0.2",
           "NETStandard.Library": "2.0.3",
@@ -151,6 +152,11 @@
             "fileVersion": "5.0.0.786"
           }
         }
+      },
+      "Domain/1.0.0": {
+        "runtime": {
+          "Domain.dll": {}
+        }
       }
     }
   },
@@ -264,6 +270,11 @@
       "sha512": "sha512-zSXDiZukojtEBmZKUUG1yYBwlB9tI8JLPkc6n+Sm1PAX01QyzErWE9AaFJgP7usyoGHn92l4HnQF7A+/MPI6VA==",
       "path": "xamarin.forms/5.0.0.2196",
       "hashPath": "xamarin.forms.5.0.0.2196.nupkg.sha512"
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

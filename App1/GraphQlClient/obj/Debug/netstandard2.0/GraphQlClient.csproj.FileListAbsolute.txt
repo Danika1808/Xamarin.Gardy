@@ -18,3 +18,6 @@ C:\Users\timur\Source\Repos\Xamarin.Gardy\App1\GraphQlClient\obj\Debug\netstanda
 C:\Users\timur\Source\Repos\Xamarin.Gardy\App1\GraphQlClient\obj\Debug\netstandard2.0\GraphQlClient.csproj.CoreCompileInputs.cache
 C:\Users\timur\Source\Repos\Xamarin.Gardy\App1\GraphQlClient\obj\Debug\netstandard2.0\GraphQlClient.dll
 C:\Users\timur\Source\Repos\Xamarin.Gardy\App1\GraphQlClient\obj\Debug\netstandard2.0\GraphQlClient.pdb
+C:\Users\timur\Source\Repos\Xamarin.Gardy\App1\GraphQlClient\bin\Debug\netstandard2.0\Domain.dll
+C:\Users\timur\Source\Repos\Xamarin.Gardy\App1\GraphQlClient\bin\Debug\netstandard2.0\Domain.pdb
+C:\Users\timur\Source\Repos\Xamarin.Gardy\App1\GraphQlClient\obj\Debug\netstandard2.0\GraphQlClient.csproj.CopyComplete

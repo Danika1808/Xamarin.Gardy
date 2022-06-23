@@ -176,6 +176,16 @@
           "buildTransitive/Xamarin.Forms.props": {},
           "buildTransitive/Xamarin.Forms.targets": {}
         }
+      },
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
       }
     }
   },
@@ -901,6 +911,11 @@
         "xamarin.forms.5.0.0.2196.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -939,8 +954,8 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "C:\\Users\\danik\\Documents\\GitHub\\Xamarin.Gardy\\App1\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\danik\\Documents\\GitHub\\Xamarin.Gardy\\App1\\Domain\\Domain.csproj"
+            "C:\\Users\\timur\\Source\\Repos\\Xamarin.Gardy\\App1\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\timur\\Source\\Repos\\Xamarin.Gardy\\App1\\Domain\\Domain.csproj"
             }
           }
         }

@@ -8,7 +8,11 @@ namespace App1.ViewModels
 {
     public class LoginViewModel : BaseViewModel
     {
+        private string _name;
+        private string _password;
         public Command LoginCommand { get; }
+        public string Name { get => _name; set => SetProperty(ref _name, value); }
+        public string Password { get => _password; set => SetProperty(ref _password, value); }
 
         public LoginViewModel()
         {

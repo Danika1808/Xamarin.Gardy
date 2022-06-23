@@ -19,5 +19,8 @@
     <Compile Update="Views\CatalogPage.xaml.cs">
       <DependentUpon>CatalogPage.xaml</DependentUpon>
     </Compile>
+    <Compile Update="Views\ProductDetailPage.xaml.cs">
+      <DependentUpon>ProductDetailPage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 </Project>

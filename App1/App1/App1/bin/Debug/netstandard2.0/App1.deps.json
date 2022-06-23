@@ -179,6 +179,7 @@
       },
       "GraphQlClient/1.0.0": {
         "dependencies": {
+          "Domain": "1.0.0",
           "GraphQL.Client": "4.0.2",
           "GraphQL.Client.Serializer.Newtonsoft": "4.0.2",
           "Xamarin.Forms": "5.0.0.2196"

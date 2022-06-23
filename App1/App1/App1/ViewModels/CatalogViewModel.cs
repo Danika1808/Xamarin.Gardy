@@ -10,6 +10,8 @@ using GraphQL;
 using System.Collections.Generic;
 using App1.Services;
 using System.Net.Http;
+using Domain.Entities;
+using GraphQlClient;
 
 namespace App1.ViewModels
 {
@@ -24,7 +26,7 @@ namespace App1.ViewModels
 
         public CatalogViewModel()
         {
-            Title = "Browse";
+            Title = "Каталог";
             Items = new ObservableCollection<Product>();
             LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand());
 
@@ -43,35 +45,16 @@ namespace App1.ViewModels
 
                 var graphQLRequest = new GraphQLRequest
                 {
-                    Query = @"
-                            query {
-                            products {
-                            totalCount
-                            items {
-                            id
-                            name
-                            price
-                            rating
-                            image {
-                            id
-                            imagePath
-                            }
-                            attributeValuePairs {
-                            key
-                            value
-                            }
-                            }
-                            }
-                            }"
+                    Query = ProductContracts.GetAllProductsQuery
                 };
 
-                var products = await client.SendQueryAsync<List<Product>>(graphQLRequest).ConfigureAwait(false);
+                var products = await client.SendQueryAsync<ResponseType>(graphQLRequest).ConfigureAwait(false);
 
-                foreach (var item in products.Data)
+                foreach (var item in products.Data.Products.Items)
                 {
                     Console.WriteLine(item);
                 }
-                var items = products.Data;
+                var items = products.Data.Products.Items;
                 foreach (var item in items)
                 {
                     Items.Add(item);
